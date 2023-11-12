@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(84, 103, 161);
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+#container {
+  text-align: center;
+  margin: 16% 45%;
+}
+#container #signup,
+#signin {
+  border: 1px solid rgb(246, 245, 245);
+  width: 120px;
+  background-color: rgb(60, 67, 208);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#signup a,
+#signin a {
+  text-decoration: none;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+#container #signup:hover,
+#container #signin:hover {
+  background-color: #17183b; /* Change background color on hover */
+}
